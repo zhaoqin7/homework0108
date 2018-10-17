@@ -168,7 +168,7 @@ void ScoreSorter::display()
 }
 int main()
 {
-    QString datafile = "C:/Users/admin/Documents/homework-02/data.txt";
+    QString datafile = "C:/Users/acer/Desktop/homework02/data.txt";
     QFile f("sorted_"+datafile);    // 如果排序后文件已存在，则删除之
     if (f.exists()){
 
