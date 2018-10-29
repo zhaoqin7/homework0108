@@ -148,7 +148,7 @@
      bthDrawpic ->setIconSize(p.size());
 
      p.fill(BACKGROUND_COLOR);
-     QImage image(":/new/prefix1/1.png");//图标
+     QImage image(":/new/prefix1/图标.jpg");//图标
      QRect targetRect(0,0,p.size().width(),p.size().height());
      QRect sourceRect =image.rect();
      painter.drawImage(targetRect,image,sourceRect);
